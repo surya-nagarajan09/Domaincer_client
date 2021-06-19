@@ -68,7 +68,7 @@ const CandidatePage=()=>{
                                 </Col>
                                 <Col xs={12}>
                                 <div style={styles.link}>
-                                <Button variant="link" href="hhttps://domaincerclient.herokuapp.com/recruiter">RECRUITER<BiLinkExternal/></Button>
+                                <Button variant="link" href="https://domaincerclient1.herokuapp.com/recruiter">RECRUITER<BiLinkExternal/></Button>
                                 </div>      
                                 </Col>
                             </Row>
