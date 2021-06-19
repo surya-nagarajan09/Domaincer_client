@@ -48,7 +48,7 @@ const SignUP=()=>{
             setMsg( <Spinner animation="border" variant="success"/>)
             axios.post(url,form).then((res)=>{
                 if(res.status===200){
-                    setMsg("SUCCESSFULLY LOGGED IN");
+                    setMsg("SUCCESSFULLY SIGEND UP");
                 }else {
                     setMsg("user already taken")
                }
