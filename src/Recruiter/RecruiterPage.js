@@ -43,6 +43,9 @@ const RecruiterPage=()=>{
                     <Col xs={6}>
                         <Card style={styles.card}>
                             <Row>   
+                                <Col xs={12}>
+                                <p style={{justifyContent:"center",display:"flex",color:"green"}}>LOG IN TO POST JOBS</p>
+                                </Col>
                                  <Col xs={3}></Col>
                                 <Col xs={6}>
                                 <ButtonGroup>

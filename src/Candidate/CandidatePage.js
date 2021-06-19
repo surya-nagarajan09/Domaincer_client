@@ -35,6 +35,7 @@ const CandidatePage=()=>{
         <Fragment>
             <Container style={styles.container}>
                 <Row>
+                    <Col></Col>
                     <Col xs={12}>
                        <Row>
                            <Col xs={6}></Col>
@@ -47,8 +48,13 @@ const CandidatePage=()=>{
                     </Col>
                     <Col xs={6}>
                         <Card style={styles.card}>
-                            <Row style={styles.container}>   
-                                 <Col xs={3}></Col>
+                            <Row style={styles.container}> 
+                            <Col xs={12}>
+                                <p style={{display:"flex",color:'green',justifyContent:"center"}}>LOG IN TO SEARCH JOBS!!</p>
+                            </Col>  
+                                 <Col xs={3}>
+                                     
+                                 </Col>
                                 <Col xs={6}>
                                 <ButtonGroup>
                                 <Button variant="light" size="lg" onClick={()=>setLogin(<Login/>)}>LOGIN</Button>
@@ -62,7 +68,7 @@ const CandidatePage=()=>{
                                 </Col>
                                 <Col xs={12}>
                                 <div style={styles.link}>
-                                <Button variant="link" href="http://localhost:3000/recruiter">HERE FOR RECRUITMENT<BiLinkExternal/></Button>
+                                <Button variant="link" href="hhttps://domaincerclient.herokuapp.com/recruiter">RECRUITER<BiLinkExternal/></Button>
                                 </div>      
                                 </Col>
                             </Row>

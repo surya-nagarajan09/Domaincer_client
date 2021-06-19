@@ -54,7 +54,7 @@ const RecruiterDash=()=>{
                          <Col xs={5} style={{display:"flex"}}>
                              <p style={{marginTop:"5px"}}>logged in <span >{user}</span></p>
                              <Button onClick={handleLogout} variant="danger" size="sm" style={{width:'100px',height:'27px',marginTop:"5px"}}>LOGOUT</Button>
-                         </Col>px
+                         </Col>
                        </Row>
                        </Card>  
                   </Col>

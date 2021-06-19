@@ -117,7 +117,7 @@ const CreateJob=()=>{
                   <Col xs={12}>
                       <Card>
                           <div style={style.head}>
-                          <p>CREATE JOB</p>
+                          <p>POST NEW JOBS</p>
                           </div>
                       </Card>  
                   </Col>
